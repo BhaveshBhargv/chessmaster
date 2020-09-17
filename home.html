@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="home.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="addIcon.js"></script>
+    <script src="submit.js"></script>
+    <title>Chess Master</title>
+    
+</head>
+<body>
+    <div class="chessboard">
+        <!-- 1st -->
+        <div class="start white" id="a8"></div>
+        <div class="start black" id="b8"></div>
+        <div class="start white" id="c8"></div>
+        <div class="start black" id="d8"></div>
+        <div class="start white" id="e8"></div>
+        <div class="start black" id="f8"></div>
+        <div class="start white" id="g8"></div>
+        <div class="start black" id="h8"></div>
+        <!-- 2nd -->
+        <div class="start black" id="a7"></div>
+        <div class="start white" id="b7"></div>
+        <div class="start black" id="c7"></div>
+        <div class="start white" id="d7"></div>
+        <div class="start black" id="e7"></div>
+        <div class="start white" id="f7"></div>
+        <div class="start black" id="g7"></div>
+        <div class="start white" id="h7"></div>
+        <!-- 3th -->
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <!-- 4st -->
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <!-- 5th -->
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <!-- 6th -->
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <!-- 7th -->
+        <div class="start white" id="a2"></div>
+        <div class="start black" id="b2"></div>
+        <div class="start white" id="c2"></div>
+        <div class="start black" id="d2"></div>
+        <div class="start white" id="e2"></div>
+        <div class="start black" id="f2"></div>
+        <div class="start white" id="g2"></div>
+        <div class="start black" id="h2"></div>
+        <!-- 8th -->
+        <div class="start black" id="a1"></div>
+        <div class="start white" id="b1"></div>
+        <div class="start black" id="c1"></div>
+        <div class="start white" id="d1"></div>
+        <div class="start black" id="e1"></div>
+        <div class="start white" id="f1"></div>
+        <div class="start black" id="g1"></div>
+        <div class="start white" id="h1"></div>
+    </div>
+    <div class="desired">
+        <img id="myImage" src="desired.png" style="width:300px; display: none;">
+    </div>
+    <div class="submit">
+        <button class="btn" onclick="submit()">Submit</button>
+        <button class="btn" onclick="reset()">Reset</button>
+    </div>
+    <ul class="menuWhite">
+        <li class="menu-item" id="9817">Pawn</li>
+        <li class="menu-item" id="9814">Rook</li>
+        <li class="menu-item" id="9816">Knight</li>
+        <li class="menu-item" id="9815">Bishop</li>
+        <li class="menu-item" id="9813">Queen</li>
+        <li class="menu-item" id="9812">King</li>
+    </ul> 
+    <ul class="menuBlack">
+        <li class="menu-item" id="9823">Pawn</li>
+        <li class="menu-item" id="9820">Rook</li>
+        <li class="menu-item" id="9822">Knight</li>
+        <li class="menu-item" id="9821">Bishop</li>
+        <li class="menu-item" id="9819">Queen</li>
+        <li class="menu-item" id="9818">King</li>
+    </ul>
+</body>
+</html>

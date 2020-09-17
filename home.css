@@ -1,0 +1,93 @@
+.chessboard {
+    width: 496px;
+    height: 496px;
+    margin: 20px 200px;
+    border: 25px solid #333;
+    float: left;
+    position: relative;
+}
+.black {
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-color: #999;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    border: 1px solid rgb(0, 0, 0);
+}
+.white {
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    border: 1px solid #aaa;
+}
+.wrong {
+    background-color: rgb(255, 74, 74);
+}
+.desired {
+    margin: 0;
+    top: 10%;
+    left: 65%;
+    margin: 0;
+    position: absolute;
+}
+.result p{
+    font-size: 40px;
+}
+.submit {
+    margin: 0;
+    top: 60%;
+    left: 70%;
+    margin: 0;
+    position: absolute;
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+ul{
+    padding: 0px;
+}
+.menuWhite, .menuBlack{
+    background-color: #f4f4f4;
+    color: gray;
+    border: 1px solid #aaa;
+    box-shadow: 2px 2px 2px #999;
+    border-radius: 0.2rem;
+    list-style: none;
+    position: fixed;
+}
+.menuWhite.off, .menuBlack.off{
+    top: -200%;
+    left: -200%;
+}
+.menu-item{
+    padding: 0px 30px;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu-item:hover,
+.menu-item:active{
+    color: black;
+    font-weight: bolder;
+}
